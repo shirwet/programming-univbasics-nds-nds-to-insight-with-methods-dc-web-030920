@@ -9,6 +9,7 @@ total = 0
 index = 0
 while index < nds.count do 
 total += nds[:movies][index][:worldwide_grosses]
+
 index += 1
 end
 total 
@@ -19,12 +20,8 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  i = 0
-   while i < nds.size do
-     director = nds[i]
-     result[director[:name]] = gross_for_director(director)
-     i += 1
-   end
-   result
- end		 
- end
+  result = {}
+  total = 0 
+  index = 0
+result
+end
