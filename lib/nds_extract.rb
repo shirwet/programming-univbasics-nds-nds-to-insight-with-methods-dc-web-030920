@@ -23,5 +23,6 @@ def directors_totals(nds)
   result = {}
   total = 0 
   index = 0
+  while i < 
 result
 end
