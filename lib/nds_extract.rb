@@ -6,7 +6,7 @@ require 'directors_database'
 def gross_for_director(director_data)
 total = 0
 index = 0
-
+total += 
 end
 
 # Write a method that, given an NDS creates a new Hash
