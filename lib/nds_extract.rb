@@ -9,7 +9,6 @@ total = 0
 index = 0
 while index < nds.count do 
 total += nds[:movies][index][:worldwide_grosses]
-
 index += 1
 end
 total 
